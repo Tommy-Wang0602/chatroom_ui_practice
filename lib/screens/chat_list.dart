@@ -1,5 +1,5 @@
+import 'package:chat/body/chat_list_body.dart';
 import 'package:chat/constants.dart';
-import 'package:chat/widgets/body.dart';
 import 'package:flutter/material.dart';
 
 class ChatListScreen extends StatefulWidget {
@@ -16,7 +16,7 @@ class _ChatListScreenState extends State<ChatListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(),
-      body: Body(),
+      body: ChatListBody(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Icon(
