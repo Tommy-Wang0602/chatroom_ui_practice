@@ -41,7 +41,7 @@ class ChatTextFiled extends StatelessWidget {
                       Icons.sentiment_satisfied_alt_outlined,
                       color: Theme.of(context)
                           .textTheme
-                          .bodySmall
+                          .bodyText1
                           .color
                           .withOpacity(0.64),
                     ),
@@ -57,7 +57,7 @@ class ChatTextFiled extends StatelessWidget {
                       Icons.attach_file,
                       color: Theme.of(context)
                           .textTheme
-                          .bodySmall
+                          .bodyText1
                           .color
                           .withOpacity(0.64),
                     ),
@@ -66,7 +66,7 @@ class ChatTextFiled extends StatelessWidget {
                       Icons.camera_alt_outlined,
                       color: Theme.of(context)
                           .textTheme
-                          .bodySmall
+                          .bodyText1
                           .color
                           .withOpacity(0.64),
                     ),

@@ -30,7 +30,7 @@ class WelcomeScreen extends StatelessWidget {
               style: TextStyle(
                   color: Theme.of(context)
                       .textTheme
-                      .bodySmall
+                      .bodyText1
                       .color
                       .withOpacity(0.64)),
             ),
@@ -51,7 +51,7 @@ class WelcomeScreen extends StatelessWidget {
                       style: Theme.of(context).textTheme.bodySmall.copyWith(
                             color: Theme.of(context)
                                 .textTheme
-                                .bodySmall
+                                .bodyText1
                                 .color
                                 .withOpacity(0.8),
                           ),
@@ -62,7 +62,7 @@ class WelcomeScreen extends StatelessWidget {
                       size: 16,
                       color: Theme.of(context)
                           .textTheme
-                          .bodySmall
+                          .bodyText1
                           .color
                           .withOpacity(0.8),
                     )
